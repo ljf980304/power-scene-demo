@@ -1,0 +1,53 @@
+:root {
+  color-scheme: dark;
+  --bg-page: #0a1420;
+  --bg-panel: rgba(16, 32, 48, 0.82);
+  --bg-panel-solid: #101f2e;
+  --border-panel: rgba(64, 158, 255, 0.22);
+  --text-main: #e6f1ff;
+  --text-sub: #8ba7c4;
+  --brand: #2f9bff;
+  --brand-cyan: #36e2d0;
+  --danger: #ff5b6a;
+  --warning: #ffb340;
+  --success: #2fdc9e;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  color: var(--text-main);
+  background: var(--bg-page);
+  font-family: system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(64, 158, 255, 0.3);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
